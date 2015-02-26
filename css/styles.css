@@ -2,55 +2,54 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* styles */
-body {
-    background: url(../images/fotos.jpg) no-repeat;
-    background-position: center 0
-}
-#top {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%; /* Ширина слоя в пикселах */
+    body {
+        background: url(../images/fotos.jpg) no-repeat;
+        background-position: center 0
+    }
+    #top {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%; /* Ширина слоя в пикселах */
     } 
-#fractal {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    margin-left: -48px; /* Отступ слева */
-    width: 96px; /* Ширина слоя в пикселах */
-    height: 1038px; /* Высота слоя в пикселах */
-    background-image: url(../images/fractal.png);
-    background-position: center 0; 
+    #fractal {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-left: -48px; /* Отступ слева */
+        width: 96px; /* Ширина слоя в пикселах */
+        height: 1038px; /* Высота слоя в пикселах */
+        background-image: url(../images/fractal.png);
+        background-position: center 0; 
     }    
-#content {
-    position: absolute; /* Абсолютное позиционирование */
-    width: 304px; /* Ширина слоя в пикселах */
-    left: 50%; /* Положение слоя от левого края */
-    top: 280px; /* Положение слоя от верхнего края */
-    margin-left: -185px; /* Отступ слева */
-    background: white; /* Цвет фона */
-    padding: 56px 33px; /* Поля вокруг текста */
-    overflow: auto; /* Добавление полосы прокрутки */
+    #content {
+        position: absolute; /* Абсолютное позиционирование */
+        width: 304px; /* Ширина слоя в пикселах */
+        left: 50%; /* Положение слоя от левого края */
+        top: 280px; /* Положение слоя от верхнего края */
+        margin-left: -185px; /* Отступ слева */
+        background: white; /* Цвет фона */
+        padding: 56px 33px; /* Поля вокруг текста */
+        overflow: auto; /* Добавление полосы прокрутки */
     }
-    
-#logo {
-    position: absolute;
-    left: 50%;
-    top: 90px;
-    margin-left: -187px; /* Отступ слева */
-    width: 374px; /* Ширина слоя в пикселах */
-    height: 101px; /* Высота слоя в пикселах */
-    background-image: url(../images/logo.png);
-    background-position: center center;
+    #logo {
+        position: absolute;
+        left: 50%;
+        top: 90px;
+        margin-left: -187px; /* Отступ слева */
+        width: 374px; /* Ширина слоя в пикселах */
+        height: 101px; /* Высота слоя в пикселах */
+        background-image: url(../images/logo.png);
+        background-position: center center;
     }
-#close {
-    position: absolute;
-    right: 89px;
-    top: 93px;
-    width: 24px; /* Ширина слоя в пикселах */
-    height: 23px; /* Высота слоя в пикселах */
-    background-image: url(../images/close.png);
-    background-position: center center;
+    #close {
+        position: absolute;
+        right: 89px;
+        top: 93px;
+        width: 24px; /* Ширина слоя в пикселах */
+        height: 23px; /* Высота слоя в пикселах */
+        background-image: url(../images/close.png);
+        background-position: center center;
     }
     p {
         margin-bottom: 34px;
