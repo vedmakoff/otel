@@ -61,24 +61,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         height: 23px;
         border: 1px solid #52b4d7;
     }
-    #a0 {
-        width: 180px;
-        position: absolute;
-        left: 140px;
-        height: 23px;
-        border: 1px solid #52b4d7;
+    label {
+        display: block;
     }
-    #b1 {
-        width: 74px;
-        position: absolute;
-        left: 85px;
-        height: 23px;
-        border: 1px solid #52b4d7;
+    select {
+        width: 134px;
     }
-    #c2 {
-        width: 74px;
-        position: absolute;
-        left: 240px;
-        height: 23px;
-        border: 1px solid #52b4d7;
-    }
+    
