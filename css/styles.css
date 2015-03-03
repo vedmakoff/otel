@@ -56,15 +56,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     }
     input {
         width: 134px;
-        position: absolute;
-        left: 110px;
-        height: 23px;
         border: 1px solid #52b4d7;
     }
     label {
         display: block;
+        float: left;
     }
     select {
         width: 134px;
+        border: 1px solid #52b4d7;
     }
-    
+    label:nth-of-type( 1 ) {
+        color : red;
+    }
