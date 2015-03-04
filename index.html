@@ -13,19 +13,19 @@
         <a id="close" href="index.html"></a>   
         
         <div id="content">
-            <p><label>Заезд </label><input type="text"></p>
-            <p><label>Отъезд </label><input type="text"></p>
-            <p><label>Тип номера: </label>
-                <select>
+            <p><label>Заезд </label><input type="text" class="form"></p>
+            <p><label>Отъезд </label><input type="text" class="form"></p>
+            <p><label style="width: 106px">Тип номера: </label>
+                <select  class="form" style="width: 180px">
                     <option>Двухместный</option>
                     <option>Делюкс Двухместный</option>
                     <option>Делюкс Кинг</option>
                     <option>Фэмели суит</option>
                 </select>
             </p>
-            <div style="width: 152px; float: left;">
-                    <label>Гости </label>
-                <select>
+            <div style="width: 130px; float: left;">
+                <label style="width: 48px">Гости</label>
+                <select  class="form" style="width: 78px">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -37,10 +37,10 @@
                     <option>9</option>
                     <option>10</option>
                 </select>
-                </div>
-                <div style="width: 152px; float: left;">
-                     <label>Дети </label>
-                <select>
+            </div>
+            <div style="width: 158px; float: left;">
+                <label style="width: 48px; padding-left: 28px">Дети</label>
+                <select  class="form" style="width: 78px">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -52,8 +52,38 @@
                     <option>9</option>
                     <option>10</option>
                 </select>
-                </div>
-            <p></p>
+            </div>
+            <p>&nbsp;</p>
+            <p><label>Трансфер</label>
+                <select  class="form">
+                    <option>В отель</option>
+                    <option>В обе стороны</option>
+                    <option>Из отеля</option>
+                </select>
+            </p>
+            <hr noshade size="1">
+            <p style="margin-top: 34px">
+                <span>Стоимость проживания:</span><span style="background-color: #efcf49">14500 p</span>
+            </p>
+            <p>
+                <label>Ф.И.О.</label>
+                <input type="text" class="form persona">
+            </p>
+            <p>
+                <label>Эл. почта</label>
+                <input type="text" class="form persona">
+            </p>
+            <p>
+                <label> Телефон</label>
+                <input type="text" class="form persona">
+            </p>
+            <p>
+                <label style="width: 108px">Введите код:</label>
+                <input type="text" class="form" style="width: 80px">
+                <img src="images/capcha.png">
+                <a href=""><img src="images/refresh.png"></a>
+            </p>
+            <button>Забронировать</button>
         </div>
     </div>
  </body>

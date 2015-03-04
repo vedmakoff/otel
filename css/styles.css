@@ -29,7 +29,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         top: 280px; /* Положение слоя от верхнего края */
         margin-left: -185px; /* Отступ слева */
         background: white; /* Цвет фона */
-        padding: 56px 33px; /* Поля вокруг текста */
+        padding: 60px 36px; /* Поля вокруг текста */
         overflow: auto; /* Добавление полосы прокрутки */
     }
     #logo {
@@ -52,20 +52,38 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         background-position: center center;
     }
     p {
-        margin-bottom: 34px;
+        margin-bottom: 24px;
+    }
+    .form {
+        border: 1px solid #52b4d7;
+        height: 23px
     }
     input {
         width: 134px;
-        border: 1px solid #52b4d7;
+        
     }
     label {
         display: block;
+        width: 74px;
         float: left;
     }
     select {
         width: 134px;
-        border: 1px solid #52b4d7;
     }
-    label:nth-of-type( 1 ) {
-        color : red;
+    hr {
+        color: #52b4d7
+    }
+    .persona {
+        width: 210px
+    }
+    button {
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin-left: -67px;
+        height: 56px;
+        width: 134px;
+        text-align: center;
+        background-color: #dc4b1d;
+        border: 0;
     }
