@@ -60,7 +60,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         border: 1px solid #52b4d7;
         height: 23px;
         font-weight: bold;
-        text-align: right;
     }
     input {
         width: 134px;
@@ -161,6 +160,4 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         margin-top: 83px;
         margin-left: 32px;
         visibility: hidden
-
     }
-    
