@@ -24,12 +24,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     }    
     #content {
         position: absolute; /* Абсолютное позиционирование */
-        width: 304px; /* Ширина слоя в пикселах */
+        width: 302px; /* Ширина слоя в пикселах */
         left: 50%; /* Положение слоя от левого края */
         top: 280px; /* Положение слоя от верхнего края */
-        margin-left: -185px; /* Отступ слева */
+        margin-left: -180px; /* Отступ слева */
         background: white; /* Цвет фона */
-        padding: 60px 36px; /* Поля вокруг текста */
+        padding: 58px 34px; /* Поля вокруг текста */
         overflow: auto; /* Добавление полосы прокрутки */
         padding-bottom: 24px;
     }
@@ -97,3 +97,68 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         text-align: center;
         font-weight: bold;
     }
+    #contentst2 {
+        position: absolute; /* Абсолютное позиционирование */
+        width: 248px; /* Ширина слоя в пикселах */
+        left: 50%; /* Положение слоя от левого края */
+        top: 490px; /* Положение слоя от верхнего края */
+        margin-left: -150px; /* Отступ слева */
+        background: #5ab7d4; /* Цвет фона */
+        padding: 30px 31px; /* Поля вокруг текста */
+        overflow: auto; /* Добавление полосы прокрутки */
+        padding-bottom: 24px;
+        text-align: center;
+        visibility: hidden
+    }
+    #contentst2 button {
+        display: block;
+        margin-left: 74px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        background-color: white;
+        border: 0;
+    }
+    #contentst2 p {
+        margin-bottom: 30px;
+
+    }
+    #background {
+        background: white;
+        opacity: 0.5;
+        background-size: 100%;
+        height: 1038px;
+        visibility: hidden
+    }
+    .attention {
+        position: absolute;
+        color: red;
+        margin-left: 74px;
+    }
+    .attention #data1 {
+        margin-top: 25px;
+        visibility: hidden
+
+    }
+    .attention #data2 {
+        margin-top: 28px;
+        visibility: hidden
+
+    }
+    .attention #name {
+        margin-top: 242px;
+        visibility: hidden
+
+    }
+    .attention #mail {
+        margin-top: 28px;
+        visibility: hidden
+
+    }
+    .attention #code {
+        margin-top: 83px;
+        margin-left: 32px;
+        visibility: hidden
+    }
+    
