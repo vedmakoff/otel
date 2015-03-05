@@ -137,29 +137,29 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         color: red;
         margin-left: 74px;
     }
-    .attention #data1 {
+    #data1 {
         margin-top: 25px;
         visibility: hidden
 
     }
-    .attention #data2 {
-        margin-top: 28px;
+    #data2 {
+        margin-top: 74px;
         visibility: hidden
 
     }
-    .attention #name {
-        margin-top: 242px;
+    #name {
+        margin-top: 344px;
         visibility: hidden
 
     }
-    .attention #mail {
-        margin-top: 28px;
+    #mail {
+        margin-top: 394px;
         visibility: hidden
 
     }
-    .attention #code {
-        margin-top: 83px;
-        margin-left: 32px;
+    #code {
+        margin-top: 502px;
+        margin-left: 110px;
         visibility: hidden
     }
     
