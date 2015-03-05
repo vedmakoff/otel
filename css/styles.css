@@ -27,7 +27,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         width: 302px; /* Ширина слоя в пикселах */
         left: 50%; /* Положение слоя от левого края */
         top: 280px; /* Положение слоя от верхнего края */
-        margin-left: -180px; /* Отступ слева */
+        margin-left: -186px; /* Отступ слева */
         background: white; /* Цвет фона */
         padding: 58px 34px; /* Поля вокруг текста */
         overflow: auto; /* Добавление полосы прокрутки */
@@ -37,7 +37,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         position: absolute;
         left: 50%;
         top: 90px;
-        margin-left: -187px; /* Отступ слева */
+        margin-left: -188px; /* Отступ слева */
         width: 374px; /* Ширина слоя в пикселах */
         height: 101px; /* Высота слоя в пикселах */
         background-image: url(../images/logo.png);
