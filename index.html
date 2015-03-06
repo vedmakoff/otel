@@ -10,96 +10,100 @@
     <div id="top">
         <a id="logo" href="index.html"></a>
         <a id="close" href="index.html"></a>   
-        
-        <div id="content">
-            <div>
-                <label>Заезд </label><input type="text" class="form" name="bout">
-                <div id="data1" class="attention">Введите дату заезда</div>
+        <form>
+            <div id="content">
+
+                <div>
+                    <label>Заезд </label><input type="text" class="form" name="bout">
+                    <div id="data1" class="attention">Введите дату заезда</div>
+                </div>
+                <div>
+                    <label>Отъезд </label><input type="text" class="form" name="departure">
+                    <div id="data2" class="attention">Введите дату отъезда</div>
+                </div>
+                <div>
+                    <label id="type">Тип номера: </label>
+                    <select  class="form" id="type1" name="type">
+                        <option>Двухместный</option>
+                        <option>Делюкс Двухместный</option>
+                        <option>Делюкс Кинг</option>
+                        <option>Фэмели суит</option>
+                    </select>
+                </div>
+                <div id="twoblock">
+                    <label id="guests">Гости</label>
+                    <select  class="form" id="guests_s" name="guests">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+                <div id="children">
+                    <label id="children1">Дети</label>
+                    <select id="children2" class="form" name="children">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+                <div>&nbsp;</div>
+                <div><label>Трансфер</label>
+                    <select  class="form" name="transfer">
+                        <option>В отель</option>
+                        <option>В обе стороны</option>
+                        <option>Из отеля</option>
+                    </select>
+                </div>
+                <hr>
+                <div id="price">
+                    Стоимость проживания:<span class="price">14500 p</span>
+                </div>
+                <div>
+                    <label>Ф.И.О.</label>
+                    <input type="text" class="form persona" name="name">
+                    <div id="name" class="attention">Введите Ваше полное имя</div>
+                </div>
+                <div>
+                    <label>Эл. почта</label>
+                    <input type="text" class="form persona" name="email">
+                    <div id="mail" class="attention">Введите Ваш email</div>
+                </div>
+                <div>
+                    <label>Телефон</label>
+                    <input type="text" class="form persona" name="phone">
+                </div>
+                <div>
+                    <label id="code">Введите код:</label>
+                    <input id="code1" type="text" class="form" name="code">
+                    <img src="images/capcha.png" alt="">
+                    <a href=""><img src="images/refresh.png" alt=""></a>
+                    <div id="codea" class="attention">Введите верный код</div>
+                </div>
+                <input type="submit" value="Забронировать">
             </div>
-            <div>
-                <label>Отъезд </label><input type="text" class="form" name="departure">
-                <div id="data2" class="attention">Введите дату отъезда</div>
-            </div>
-            <div>
-                <label id="type">Тип номера: </label>
-                <select  class="form" id="type1" name="type">
-                    <option>Двухместный</option>
-                    <option>Делюкс Двухместный</option>
-                    <option>Делюкс Кинг</option>
-                    <option>Фэмели суит</option>
-                </select>
-            </div>
-            <div id="twoblock">
-                <label id="guests">Гости</label>
-                <select  class="form" id="guests_s" name="guests">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div id="children">
-                <label id="children1">Дети</label>
-                <select id="children2" class="form" name="children">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div>&nbsp;</div>
-            <div><label>Трансфер</label>
-                <select  class="form" name="transfer">
-                    <option>В отель</option>
-                    <option>В обе стороны</option>
-                    <option>Из отеля</option>
-                </select>
-            </div>
-            <hr>
-            <div id="price">
-                Стоимость проживания:<span class="price">14500 p</span>
-            </div>
-            <div>
-                <label>Ф.И.О.</label>
-                <input type="text" class="form persona" name="name">
-                <div id="name" class="attention">Введите Ваше полное имя</div>
-            </div>
-            <div>
-                <label>Эл. почта</label>
-                <input type="text" class="form persona" name="email">
-                <div id="mail" class="attention">Введите Ваш email</div>
-            </div>
-            <div>
-                <label>Телефон</label>
-                <input type="text" class="form persona" name="phone">
-            </div>
-            <div>
-                <label id="code">Введите код:</label>
-                <input id="code1" type="text" class="form" name="code">
-                <img src="images/capcha.png" alt="">
-                <a href=""><img src="images/refresh.png" alt=""></a>
-                <div id="codea" class="attention">Введите верный код</div>
-            </div>
-            <input type="submit" value="Забронировать">
-        </div>
+        </form>
         <div id="background"></div>
-        <div id="contentst2">
-            <div>Ваша заявка принята, вы получите подтверждение по 
-            указанной электронной почте</div>
-            <input type="submit" value="Ok">
-        </div>
+        <form>
+            <div id="contentst2">
+                <div>Ваша заявка принята, вы получите подтверждение по 
+                указанной электронной почте</div>
+                <input type="submit" value="Ok">
+            </div>
+        </form>
     </div>
  </body>
 </html>
