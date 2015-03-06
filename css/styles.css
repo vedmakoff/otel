@@ -165,7 +165,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         display: none
     }
     .attention {
-        position: absolute;
+        position: absolute; /* Без него смещается вниз весь контент при отображении блока */
         color: red;
         margin-left: 74px;
     }
