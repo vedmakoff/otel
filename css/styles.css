@@ -126,7 +126,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         overflow: auto; /* Добавление полосы прокрутки */
         padding-bottom: 24px;
         text-align: center;
-        /*display: none*/
+        display: none
     }
     #contentst2 input[type="submit"] {
         display: block;
@@ -151,28 +151,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         display: none
     }
     .attention {
-        color: red;
+        /*color: red;*/
+    }
+    .error {
+        display: none;
         margin-left: 74px;
-    }
-    #data1 {
-        display: none
-
-    }
-    #data2 {
-        display: none
-
-    }
-    #name {
-        display: none
-
-    }
-    #mail {
-        display: none
-
     }
     #codea {
         margin-left: 110px;
-        display: none
     }
     
     
