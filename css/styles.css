@@ -3,42 +3,28 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* styles */
     body {
-        background: url(../images/fotos.jpg) no-repeat;
-        background-position: center 0
+        background: url(../images/fotos.jpg) center 0 no-repeat;
     }
     #top {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%; /* Ширина слоя в пикселах */
-        height: 100%;
-        background: url(../images/fractal.png) no-repeat;
-        background-position: center 0;
-        min-height: 980px; /* без этого страница обрывается на крае блока контента*/
+        background: url(../images/fractal.png) center -90px no-repeat;
     } 
     #content {
-        position: absolute; /* Абсолютное позиционирование */
         width: 302px; /* Ширина слоя в пикселах */
-        left: 50%; /* Положение слоя от левого края */
-        top: 280px; /* Положение слоя от верхнего края */
-        margin-left: -186px; /* Отступ слева */
+        margin: 90px auto 0;
         background: white; /* Цвет фона */
         padding: 58px 34px; /* Поля вокруг текста */
-        overflow: auto; /* Добавление полосы прокрутки */
         padding-bottom: 24px;
     }
     #logo {
-        position: absolute;
-        left: 50%;
-        top: 90px;
-        margin-left: -188px; /* Отступ слева */
+        display: block;
+        margin: 90px auto 0;
         width: 374px; /* Ширина слоя в пикселах */
         height: 101px; /* Высота слоя в пикселах */
         background-image: url(../images/logo.png);
         background-position: center center;
     }
     #close {
-        position: absolute;
+        position: fixed;
         right: 89px;
         top: 93px;
         width: 24px; /* Ширина слоя в пикселах */
@@ -130,7 +116,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         font-weight: bold;
     }
     #contentst2 {
-        position: absolute; /* Абсолютное позиционирование */
+        position: absolute;
         width: 248px; /* Ширина слоя в пикселах */
         left: 50%; /* Положение слоя от левого края */
         top: 490px; /* Положение слоя от верхнего края */
@@ -140,7 +126,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         overflow: auto; /* Добавление полосы прокрутки */
         padding-bottom: 24px;
         text-align: center;
-        display: none
+        /*display: none*/
     }
     #contentst2 input[type="submit"] {
         display: block;
@@ -165,7 +151,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         display: none
     }
     .attention {
-        position: absolute; /* Без него смещается вниз весь контент при отображении блока */
         color: red;
         margin-left: 74px;
     }
