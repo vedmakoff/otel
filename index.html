@@ -8,29 +8,30 @@
  <body>
      
     <div id="top">
-        <div id="fractal"></div>
         <a id="logo" href="index.html"></a>
         <a id="close" href="index.html"></a>   
         
         <div id="content">
-                <p id="data1" class="attention">Введите дату заезда</p>
-                <p id="data2" class="attention">Введите дату отъезда</p>
-                <p id="name" class="attention">Введите Ваше полное имя</p>
-                <p id="mail" class="attention">Введите Ваш email</p>
-                <p id="code" class="attention">Введите верный код</p>
-            <p><label>Заезд </label><input type="text" class="form"></p>
-            <p><label>Отъезд </label><input type="text" class="form"></p>
-            <p><label style="width: 106px">Тип номера: </label>
-                <select  class="form" style="width: 180px">
+            <div>
+                <label>Заезд </label><input type="text" class="form" name="bout">
+                <div id="data1" class="attention">Введите дату заезда</div>
+            </div>
+            <div>
+                <label>Отъезд </label><input type="text" class="form" name="departure">
+                <div id="data2" class="attention">Введите дату отъезда</div>
+            </div>
+            <div>
+                <label id="type">Тип номера: </label>
+                <select  class="form" id="type1" name="type">
                     <option>Двухместный</option>
                     <option>Делюкс Двухместный</option>
                     <option>Делюкс Кинг</option>
                     <option>Фэмели суит</option>
                 </select>
-            </p>
-            <div style="width: 130px; float: left;">
-                <label style="width: 48px">Гости</label>
-                <select  class="form" style="width: 78px">
+            </div>
+            <div id="twoblock">
+                <label id="guests">Гости</label>
+                <select  class="form" id="guests_s" name="guests">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -43,9 +44,9 @@
                     <option>10</option>
                 </select>
             </div>
-            <div style="width: 158px; float: left;">
-                <label style="width: 48px; padding-left: 28px">Дети</label>
-                <select  class="form" style="width: 78px">
+            <div id="children">
+                <label id="children1">Дети</label>
+                <select id="children2" class="form" name="children">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -58,43 +59,46 @@
                     <option>10</option>
                 </select>
             </div>
-            <p>&nbsp;</p>
-            <p><label>Трансфер</label>
-                <select  class="form">
+            <div>&nbsp;</div>
+            <div><label>Трансфер</label>
+                <select  class="form" name="transfer">
                     <option>В отель</option>
                     <option>В обе стороны</option>
                     <option>Из отеля</option>
                 </select>
-            </p>
-            <hr noshade size="1">
-            <p style="margin-top: 24px">
+            </div>
+            <hr>
+            <div id="price">
                 Стоимость проживания:<span class="price">14500 p</span>
-            </p>
-            <p>
+            </div>
+            <div>
                 <label>Ф.И.О.</label>
-                <input type="text" class="form persona">
-            </p>
-            <p>
+                <input type="text" class="form persona" name="name">
+                <div id="name" class="attention">Введите Ваше полное имя</div>
+            </div>
+            <div>
                 <label>Эл. почта</label>
-                <input type="text" class="form persona">
-            </p>
-            <p>
+                <input type="text" class="form persona" name="email">
+                <div id="mail" class="attention">Введите Ваш email</div>
+            </div>
+            <div>
                 <label>Телефон</label>
-                <input type="text" class="form persona">
-            </p>
-            <p>
-                <label style="width: 108px">Введите код:</label>
-                <input type="text" class="form" style="width: 80px">
+                <input type="text" class="form persona" name="phone">
+            </div>
+            <div>
+                <label id="code">Введите код:</label>
+                <input id="code1" type="text" class="form" name="code">
                 <img src="images/capcha.png" alt="">
                 <a href=""><img src="images/refresh.png" alt=""></a>
-            </p>
-            <button>Забронировать</button>
+                <div id="codea" class="attention">Введите верный код</div>
+            </div>
+            <input type="submit" value="Забронировать">
         </div>
         <div id="background"></div>
         <div id="contentst2">
-            <p>Ваша заявка принята, вы получите подтверждение по 
-            указанной электронной почте</p>
-            <button>Ok</button>
+            <div>Ваша заявка принята, вы получите подтверждение по 
+            указанной электронной почте</div>
+            <input type="submit" value="Ok">
         </div>
     </div>
  </body>

@@ -11,17 +11,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         left: 0;
         top: 0;
         width: 100%; /* Ширина слоя в пикселах */
+        height: 100%;
+        background: url(../images/fractal.png) no-repeat;
+        background-position: center 0;
+        min-height: 980px; /* без этого страница обрывается на крае блока контента*/
     } 
-    #fractal {
-        position: absolute;
-        left: 50%;
-        top: 0;
-        margin-left: -48px; /* Отступ слева */
-        width: 96px; /* Ширина слоя в пикселах */
-        height: 1038px; /* Высота слоя в пикселах */
-        background-image: url(../images/fractal.png);
-        background-position: center 0; 
-    }    
     #content {
         position: absolute; /* Абсолютное позиционирование */
         width: 302px; /* Ширина слоя в пикселах */
@@ -52,7 +46,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         background-image: url(../images/close.png);
         background-position: center center;
     }
-    p {
+    div {
         margin-bottom: 24px;
         line-height: 23px;
     }
@@ -64,23 +58,60 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     }
     input {
         width: 134px;
-        
     }
     label {
         display: block;
         width: 74px;
         float: left;
     }
+    #type {
+        width: 106px
+    }
+    #type1 {
+        width: 180px
+    }
+    #twoblock {
+        width: 130px; 
+        float: left;
+    }
+    #guests {
+        width: 48px
+    }
+    #guests_s {
+        width: 78px
+    }
+    #children {
+        width: 158px; float: left;
+    }
+    #children1 {
+        width: 48px; padding-left: 28px
+    }
+    #children2 {
+        width: 78px
+    }
+    #price {
+        margin-top: 24px
+    }
+    #code {
+        width: 108px
+    }
+    #code1 {
+        width: 80px
+    }
     select {
         width: 134px;
     }
+    
     hr {
-        color: #52b4d7
+        color: #52b4d7; /* Цвет линии для остальных браузеров */
+        border: none; /* Убираем границу для браузера Firefox */
+        background-color: #52b4d7; /* Цвет линии для браузера Firefox и Opera */
+        height: 1px; /* Толщина линии */
     }
     .persona {
         width: 210px
     }
-    button {
+    input[type="submit"] {
         display: block;
         margin-left: 87px;
         height: 56px;
@@ -109,9 +140,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         overflow: auto; /* Добавление полосы прокрутки */
         padding-bottom: 24px;
         text-align: center;
-        visibility: hidden
+        display: none
     }
-    #contentst2 button {
+    #contentst2 input[type="submit"] {
         display: block;
         margin-left: 74px;
         margin-bottom: 10px;
@@ -121,16 +152,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         background-color: white;
         border: 0;
     }
-    #contentst2 p {
+    #contentst2 div {
         margin-bottom: 30px;
 
     }
     #background {
+        position: fixed;
         background: white;
         opacity: 0.5;
-        background-size: 100%;
-        height: 1038px;
-        visibility: hidden
+        width: 100%;
+        height: 100%;
+        display: none
     }
     .attention {
         position: absolute;
@@ -138,29 +170,24 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         margin-left: 74px;
     }
     #data1 {
-        margin-top: 25px;
-        visibility: hidden
+        display: none
 
     }
     #data2 {
-        margin-top: 74px;
-        visibility: hidden
+        display: none
 
     }
     #name {
-        margin-top: 344px;
-        visibility: hidden
+        display: none
 
     }
     #mail {
-        margin-top: 394px;
-        visibility: hidden
+        display: none
 
     }
-    #code {
-        margin-top: 502px;
+    #codea {
         margin-left: 110px;
-        visibility: hidden
+        display: none
     }
     
     
